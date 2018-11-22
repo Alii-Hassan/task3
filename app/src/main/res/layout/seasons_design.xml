@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/seasons_container"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#000"
+    >
+
+    <ImageView
+        android:id="@+id/iv_season_img"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/btn_website"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7B535977"
+        android:textColor="#ffff"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
